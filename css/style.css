@@ -1,5 +1,5 @@
 :root {
-    --blue: #4B7BEC;
+    --blue: #2F56B5;
     --blue-dark: #3159BD;
     --yellow: #FFD166;
     --mint: #70D6B0;
@@ -556,7 +556,7 @@ input:focus,
 textarea:focus,
 select:focus {
     border-color: var(--blue);
-    outline: 3px solid rgba(75,123,236,.12);
+    outline: 3px solid rgba(47,86,181,.12);
 }
 
 .form-message {
