@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Toy Haven - a playful collection of figurines, toys, board games and diecast cars.">
+
+  <meta name="theme-color" content="#4B7BEC">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="manifest" href="manifest.json">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Toy Haven | Home</title>
+</head>
+
+<body data-page="home">
+
+<header class="site-header">
+
+  <a class="brand" href="index.html">TOY HAVEN</a>
+
+  <button
+    class="menu-toggle"
+    aria-label="Open navigation"
+    aria-expanded="false">
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+  </button>
+
+  <nav class="site-nav" aria-label="Main navigation">
+
+    <a class="active" href="index.html">Home</a>
+
+    <a href="products.html">Shop</a>
+
+    <a href="wishlist.html">Collection</a>
+
+    <a href="cart.html">Cart <span class="cart-count">0</span></a>
+
+    <a href="support.html">Help</a>
+
+  </nav>
+
+</header>
+
+<main>
+
+  <!-- Hero Section -->
+  <section class="hero loft-hero">
+
+    <div class="hero-copy">
+
+      <p class="eyebrow">A SMALL WORLD OF BIG FUN</p>
+
+      <h1 id="hero-title">
+        BUILD IT. PLAY IT. KEEP IT.
+      </h1>
+
+      <p id="hero-text">
+        Discover figurines, toys, board games and diecast cars.
+      </p>
+
+      <a class="btn" href="products.html">
+        SHOP NOW
+      </a>
+
+    </div>
+
+    <div class="hero-collage" aria-hidden="true">
+
+      <img class="float-one" src="assets/astronut.jpg" alt="">
+      <img class="float-two" src="assets/robot.jpg" alt="">
+      <img class="float-three" src="assets/car.jpg" alt="">
+
+      <div class="sticker">
+        NEW<br>
+        ARRIVALS
+      </div>
+
+    </div>
+
+    <div
+      id="hero-dots"
+      class="hero-dots">
+    </div>
+
+  </section>
+
+
+  <!-- Shop by Category -->
+  <section class="section reveal">
+
+    <div class="section-heading">
+
+      <div>
+
+        <p class="eyebrow">PICK YOUR PLAY</p>
+
+        <h2>Shop by Category</h2>
+
+      </div>
+
+      <a class="text-link" href="products.html">
+        See everything →
+      </a>
+
+    </div>
+
+
+    <div class="mood-grid">
+
+      <a href="products.html?category=Figurines" class="mood-card">
+
+        <img src="assets/astronut.jpg" alt="Figurines">
+
+        <span>Figurines</span>
+
+        <small>Collect &amp; display</small>
+
+      </a>
+
+
+      <a href="products.html?category=Toys" class="mood-card">
+
+        <img src="assets/robot.jpg" alt="Toys">
+
+        <span>Toys</span>
+
+        <small>Make something</small>
+
+      </a>
+
+
+      <a href="products.html?category=Board%20Games" class="mood-card">
+
+        <img src="assets/boardgame.jpg" alt="Board Games">
+
+        <span>Board Games</span>
+
+        <small>Play together</small>
+
+      </a>
+
+
+      <a href="products.html?category=Diecast%20Cars" class="mood-card">
+
+        <img src="assets/car.jpg" alt="Diecast Cars">
+        <span>Diecast Cars</span>
+        <small>Mini machines</small>
+
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- Product of the Day -->
+  <section class="section reveal">
+
+    <div class="section-heading">
+
+      <div>
+
+        <p class="eyebrow">TODAY'S FEATURE</p>
+
+        <h2>Product of the Day</h2>
+
+      </div>
+
+    </div>
+
+    <div
+      id="featured-product"
+      class="product-grid featured-grid">
+    </div>
+
+  </section>
+
+
+  <!-- Popular Products -->
+  <section class="section reveal">
+
+    <div class="section-heading">
+
+      <div>
+
+        <p class="eyebrow">THE HAVEN SHELF</p>
+
+        <h2>Popular Picks</h2>
+
+      </div>
+
+    </div>
+
+    <div
+      id="home-product-grid"
+      class="product-grid">
+    </div>
+
+  </section>
+
+
+  <!-- Promotional Banner -->
+  <section class="banner reveal">
+
+    <div>
+
+      <p class="eyebrow">PLAY YOUR WAY</p>
+
+      <h2>Good toys don't need to be complicated.</h2>
+
+      <p>Browse a small, friendly collection designed to be easy to explore.</p>
+
+    </div>
+
+    <a class="btn btn-dark" href="products.html">BROWSE COLLECTION</a>
+
+  </section>
+
+</main>
+
+
+<!-- Footer -->
+<footer class="site-footer">
+
+  <div>
+
+    <strong>TOY HAVEN</strong>
+
+    <p>
+      Small shelf. Big imagination.
+    </p>
+
+  </div>
+
+  <div>
+
+    <h3>Explore</h3>
+
+    <a href="products.html">Shop</a>
+
+    <a href="wishlist.html">Collection</a>
+
+    <a href="cart.html">Cart</a>
+
+    <a href="support.html">Help</a>
+
+  </div>
+
+  <!-- Newsletter -->
+  <form
+    id="newsletter-form"
+    class="newsletter">
+
+    <h3>Haven Notes</h3>
+
+    <p>
+      New toys and offers, occasionally.
+    </p>
+
+    <label
+      class="sr-only"
+      for="newsletter-email">
+      Email address
+    </label>
+
+    <div class="inline-form">
+
+      <input
+        id="newsletter-email"
+        type="email"
+        placeholder="you@example.com"
+        required>
+
+      <button class="btn" type="submit">Join</button>
+
+    </div>
+
+    <small
+      id="newsletter-message"
+      class="form-message">
+    </small>
+
+  </form>
+
+</footer>
+
+<!-- Toast Notification -->
+<div
+  id="toast"
+  class="toast"
+  role="status"
+  aria-live="polite">
+</div>
+
+<script src="js/products-data.js"></script>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

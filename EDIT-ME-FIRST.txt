@@ -1,0 +1,21 @@
+TOY LOFT - QUICK EDIT GUIDE
+
+1. Want to change a product?
+   Open js/products-data.js
+
+2. Want to change colours/layout?
+   Open css/style.css
+
+3. Want to change page text/sections?
+   Open the matching HTML file.
+
+4. Want to change buttons, cart, search, filters, wishlist or checkout?
+   Open js/app.js
+
+5. Want to add a picture?
+   Put it inside assets/ and use the exact filename in products-data.js.
+
+Example:
+image: "assets/my-toy.jpg"
+
+Keep the filename spelling and extension exactly the same.

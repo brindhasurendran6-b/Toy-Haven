@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Toy Haven feedback and support.">
+    <meta name="theme-color" content="#4B7BEC">
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Toy Haven | Help</title>
+</head>
+
+<body data-page="support">
+
+    <!--Header-->
+    <header class="site-header">
+
+        <a class="brand" href="index.html">TOY HAVEN</a>
+
+        <!--Mobile menu button-->
+        <button 
+            class="menu-toggle" 
+            aria-label="Open navigation" 
+            aria-expanded="false">
+
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <!--Navigation-->
+        <nav class="site-nav" aria-label="Main navigation">
+
+            <a href="index.html">Home</a>
+
+            <a href="products.html">Shop</a>
+
+            <a href="wishlist.html">Collection</a>
+
+            <a href="cart.html">
+                Cart <span class="cart-count">0</span>
+            </a>
+
+            <a class="active" href="support.html">Help</a>
+
+        </nav>
+
+    </header>
+
+    <!--Main content-->
+    <main class="page-main">
+
+        <!--Page introduction-->
+        <div class="page-intro">
+
+            <p class="eyebrow">NEED A HAND?</p>
+
+            <h1>Help & feedback</h1>
+
+            <p>
+                Send a message or open an FAQ below.
+            </p>
+
+        </div>
+
+        <!--Support area-->
+        <div class="support-layout">
+
+            <!--Feedback form-->
+            <form 
+                id="feedback-form"
+                class="form-card"
+                novalidate>
+
+                <h2>Send feedback</h2>
+
+                <!--Name-->
+                <label>
+                    Name
+                    <input 
+                        id="feedback-name"
+                        name="name"
+                        type="text"
+                        required>
+
+                </label>
+
+                <!--Email-->
+                <label>
+                    Email
+                    <input 
+                        id="feedback-email"
+                        name="email"
+                        type="email"
+                        required>
+
+                </label>
+
+                <!--Message-->
+                <label>
+                    Message
+                    <textarea 
+                        id="feedback-message"
+                        name="message"
+                        rows="6"
+                        required>
+                    </textarea>
+                </label>
+
+                <!--Feedback status-->
+                <div 
+                    id="feedback-status"
+                    class="form-message">
+                </div>
+
+                <!--Submit button-->
+                <button class="btn" type="submit">SEND MESSAGE</button>
+
+            </form>
+
+            <!--FAQ section-->
+            <section>
+
+                <h2>FAQs</h2>
+
+                <div 
+                    id="faq-list"
+                    class="faq-list">
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <!--Toast message-->
+    <div 
+        id="toast"
+        class="toast"
+        role="status"
+        aria-live="polite">
+    </div>
+
+    <!--JavaScript-->
+    <script src="js/products-data.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
