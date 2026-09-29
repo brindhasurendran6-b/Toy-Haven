@@ -91,7 +91,7 @@ a {
 
 .site-nav a:hover,
 .site-nav a.active {
-    color: var(--blue);
+    color: var(--blue-dark);
 }
 
 .cart-count {
@@ -171,7 +171,7 @@ a {
 }
 
 .eyebrow {
-    color: var(--blue);
+    color: var(--blue-dark);
     font-size: 12px;
     font-weight: 900;
     letter-spacing: .14em;
@@ -347,7 +347,7 @@ h2 {
 
 .text-link {
     font-weight: 800;
-    color: var(--blue);
+    color: var(--blue-dark);
 }
 
 
@@ -452,7 +452,7 @@ h2 {
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: .06em;
-    color: var(--blue);
+    color: var(--blue-dark);
 }
 
 .product-info h3 {
