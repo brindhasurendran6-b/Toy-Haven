@@ -5,7 +5,7 @@
     --mint: #70D6B0;
     --cream: #F7F3EA;
     --ink: #202735;
-    --muted: #687080;
+    --muted: #626A78;
     --white: #fff;
     --line: #DEDACF;
     --shadow: 0 14px 35px rgba(32,39,53,.08);
@@ -142,7 +142,7 @@ a {
 .loft-hero {
     margin-top: 36px;
     min-height: 480px;
-    background: var(--blue);
+    background: #2A4FA8;
     border-radius: 28px;
     padding: 60px;
     display: grid;
@@ -171,7 +171,7 @@ a {
 }
 
 .eyebrow {
-    color: var(--blue-dark);
+    color: #24489A;
     font-size: 12px;
     font-weight: 900;
     letter-spacing: .14em;
@@ -452,7 +452,7 @@ h2 {
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: .06em;
-    color: var(--blue-dark);
+    color: var(--blue);
 }
 
 .product-info h3 {
